@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: rgba(40, 54, 70, 1);
+}
+.first1{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.second1{
+    display: flex;
+    align-items: end;
+    padding-top: 27px;
+    padding-bottom: 21px;
+    gap: 16px;
+}
+.second2{
+    display: flex;
+    align-items: end;
+    padding-bottom: 24px;
+    gap: 16px;
+}
+.second3{
+    display: flex;
+    align-items: end;
+    gap: 16px;
+}
+.third1{
+    display: flex;
+    gap: 16px;
+}
+.main{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    padding: 85px 104px;
+    margin: 0 auto;
+}
+h5{
+    color: #3A86FF;
+    font-size: 16px;
+    font-family: 'Raleway'; 
+    font-weight: 700;
+}
+.third1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+}
+.text1{
+    padding-top: 29px;
+    font-family: 'roboto';
+    font-weight: 400;
+    padding-bottom: 40px;
+    max-width: 208px;
+    color: #CFD3D7;
+}
+.copy{
+    color: #CFD3D7;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+.text2{
+    max-width: 182px;
+    color: #CFD3D7;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.text3{
+    max-width: 199px;
+    color: #CFD3D7;
+    padding-top: 24px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.text4{
+    padding-top: 26px;
+    color: var(--White-White-90, #CFD3D7);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400; 
+    padding-bottom: 8px;
+}
+.text5{
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 500px;
+    color: #fff;
+}
+.second2 p{
+    color: #CFD3D7;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.second3 p{
+    color: #CFD3D7;
+    font-size: 16px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+.location img{
+    padding-bottom: 11px;
+}
+.third1 h5{
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 9px 9px;
+    background: #3A86FF;
+    border-radius: 50%;
+}
+.four input{
+    border: 1px solid #387AE7;
+    background: #4F5A68;
+    padding: 16px 40px;
+    margin-bottom: 24px;
+}
+.btn{
+    border-radius: 8px;
+    background: #3A86FF;
+    padding: 16px 48px;
+    width: 159px;
+}
+@media (max-width:768px){
+    .main{
+        display: block;
+        /* max-width: 350px; */
+        margin: 0 auto;
+    }
+    .first{
+        padding-bottom: 50px;
+    }
+    .second{
+        padding-bottom: 50px;
+    }
+    .third{
+        padding-bottom: 50px;
+    }
+}
+
